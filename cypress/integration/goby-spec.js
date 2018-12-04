@@ -6,7 +6,7 @@ describe('goby-spec', () => {
       })
   
       it('has Login button', () => {
-        cy.contains('LOGIN');
+        cy.contains('LOGIN', {timeout: 60000});
       })
     })
   })
