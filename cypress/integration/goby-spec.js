@@ -2,7 +2,7 @@ describe('goby-spec', () => {
     describe('page', () => {
       beforeEach(() => {
         debugger
-        cy.visit('https://www.gobyride.com/mobile', {timeout: 10000});
+        cy.visit('https://www.gobyride.com/mobile', {timeout: 60000});
       })
   
       it('has Login button', () => {
